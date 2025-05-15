@@ -9,9 +9,9 @@ sampleRUM('cwv');
 // add more delayed functionality here
 
 // CMP consent
-try {
-  await fetchPlaceholders();
-} catch (e) { /* ignore */ }
+// try {
+//   await fetchPlaceholders();
+// } catch (e) { /* ignore */ }
 loadCookieConsent();
 
 // also check consent stored in localstorage used while developing
